@@ -1,0 +1,58 @@
+import { Category } from '../types';
+
+export const categories: Category[] = [
+  {
+    id: 'cat-sofas',
+    name: 'Sofas & Lounges',
+    slug: 'sofas',
+    href: '/services#custom-furniture',
+    description: 'Deep-seat linen sofas, walnut-trimmed sectionals, and handcrafted armchairs.',
+    image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=70',
+    itemCount: 24,
+  },
+  {
+    id: 'cat-beds',
+    name: 'Beds & Bedrooms',
+    slug: 'beds',
+    href: '/services#custom-furniture',
+    description: 'Solid white oak platform beds, live-edge headboards, and floating nightstands.',
+    image: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=70',
+    itemCount: 18,
+  },
+  {
+    id: 'cat-dining',
+    name: 'Dining Collections',
+    slug: 'dining',
+    href: '/services#custom-furniture',
+    description: 'Heritage dining tables, sculpted hardwood chairs, and artisanal buffets.',
+    image: 'https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=800&q=70',
+    itemCount: 32,
+  },
+  {
+    id: 'cat-storage',
+    name: 'Storage & Credenzas',
+    slug: 'storage',
+    href: '/services#home-interior',
+    description: 'Dovetailed credenzas, fluted media consoles, and architectural book towers.',
+    image: 'https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=800&q=70',
+    itemCount: 21,
+  },
+  {
+    id: 'cat-office',
+    name: 'Executive Office',
+    slug: 'office',
+    href: '/services#office-furniture',
+    description: 'Ergonomic solid walnut desks, executive libraries, and sculpted study chairs.',
+    image: 'https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=800&q=70',
+    itemCount: 15,
+  },
+  {
+    id: 'cat-decor',
+    name: 'Artisan Decor',
+    slug: 'decor',
+    href: '/services#home-interior',
+    description: 'Turned hardwood vessels, minimalist wall sconces, and sculpted timber mirrors.',
+    image: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=70',
+    itemCount: 29,
+  },
+];

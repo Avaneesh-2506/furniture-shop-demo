@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Favicon & Brand -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#5B3A29" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+    <!-- SEO Meta Tags -->
+    <title>WoodCraft Furniture | Handcrafted Artisan Furniture & Bespoke Interiors</title>
+    <meta
+      name="description"
+      content="WoodCraft Furniture designs and fabricates handcrafted solid wood furniture, bespoke home interiors, modular kitchens, and custom woodwork built to last generations."
+    />
+    <meta name="keywords" content="furniture, handcrafted furniture, solid wood, bespoke interiors, modular kitchen, dining tables, custom sofas, artisan woodworking" />
+    <meta name="author" content="WoodCraft Furniture" />
+    <link rel="canonical" href="https://woodcraft-furniture.example.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://woodcraft-furniture.example.com/" />
+    <meta property="og:title" content="WoodCraft Furniture | Handcrafted Artisan Furniture" />
+    <meta
+      property="og:description"
+      content="Handcrafted solid wood furniture, bespoke home interiors, and custom architectural woodwork created with timeless craftsmanship."
+    />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80"
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://woodcraft-furniture.example.com/" />
+    <meta name="twitter:title" content="WoodCraft Furniture | Handcrafted Artisan Furniture" />
+    <meta
+      name="twitter:description"
+      content="Handcrafted solid wood furniture, bespoke home interiors, and custom architectural woodwork."
+    />
+    <meta
+      name="twitter:image"
+      content="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80"
+    />
+
+    <!-- Preload Hero LCP Image for Maximum Performance -->
+    <link
+      rel="preload"
+      as="image"
+      href="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80"
+      fetchpriority="high"
+    />
+
+    <!-- LocalBusiness FurnitureStore JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FurnitureStore",
+        "name": "WoodCraft Furniture",
+        "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+        "@id": "https://woodcraft-furniture.example.com/#store",
+        "url": "https://woodcraft-furniture.example.com",
+        "telephone": "+1 (555) 234-5678",
+        "priceRange": "$$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "742 Evergreen Artisan Way, Suite 100",
+          "addressLocality": "Portland",
+          "addressRegion": "OR",
+          "postalCode": "97201",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 45.5152,
+          "longitude": -122.6784
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "18:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "10:00",
+            "closes": "17:00"
+          }
+        ],
+        "sameAs": [
+          "https://www.instagram.com/woodcraftfurniture",
+          "https://www.pinterest.com/woodcraftfurniture",
+          "https://www.facebook.com/woodcraftfurniture"
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-cream text-charcoal font-sans antialiased selection:bg-oak/20 selection:text-walnut min-h-screen flex flex-col">
+    <!-- Accessible skip link -->
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-walnut focus:text-cream focus:rounded-md focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-oak font-medium text-sm transition-transform"
+    >
+      Skip to main content
+    </a>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

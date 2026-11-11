@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://woodcraft-furniture.example.com/sitemap.xml
+
